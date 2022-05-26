@@ -7,7 +7,7 @@
       }
     }
   ],
-  "spec_files": ["**/*[sS]pec.ts"],
+  "spec_files": ["charlie.spec.ts"],
   "helpers": [
     "jasmine-typescript-helper.js"
   ]

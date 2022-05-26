@@ -26,12 +26,3 @@ export function combinationSum(candidates: number[], target: number): number[][]
     return rets;
 }
 
-let candidates = [2,3,6,7];
-let target = 7;
-let results = combinationSum(candidates, target);
-for (let r of results) {
-    console.log(`items=`);
-    for (let lc of r) {
-        console.log(` ${lc} `)
-    }
-}
